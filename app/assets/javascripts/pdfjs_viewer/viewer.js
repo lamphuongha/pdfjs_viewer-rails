@@ -6450,8 +6450,15 @@ var pdfjsWebLibs;
     'http://mozilla.github.io',
     'https://mozilla.github.io',
     'https://staging.nexusedge.com',
+    'https://gtl-staging.nexusedge.com',
+    'https://bvcaps-staging.nexusedge.com',
+    'https://usc-staging.nexusedge.com',
+    'https://lhs-staging.nexusedge.com',
     'https://www.nexusedge.com',
-    'https://*.nexusedge.com'
+    'https://gtl.nexusedge.com',
+    'https://bvcaps.nexusedge.com',
+    'https://usc.nexusedge.com',
+    'https://lhs.nexusedge.com'
    ];
    validateFileURL = function validateFileURL(file) {
     try {
