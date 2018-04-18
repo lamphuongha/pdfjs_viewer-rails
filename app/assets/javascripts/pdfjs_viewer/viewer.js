@@ -6448,7 +6448,10 @@ var pdfjsWebLibs;
    var HOSTED_VIEWER_ORIGINS = [
     'null',
     'http://mozilla.github.io',
-    'https://mozilla.github.io'
+    'https://mozilla.github.io',
+    'https://staging.nexusedge.com',
+    'https://www.nexusedge.com',
+    'https://*.nexusedge.com'
    ];
    validateFileURL = function validateFileURL(file) {
     try {
